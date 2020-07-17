@@ -1,0 +1,8 @@
+cn\cqupt\domain\Role.class
+cn\cqupt\domain\Orders.class
+cn\cqupt\domain\Member.class
+cn\cqupt\domain\Permission.class
+cn\cqupt\domain\UserInfo.class
+cn\cqupt\domain\Traveller.class
+cn\cqupt\domain\SysLog.class
+cn\cqupt\domain\Product.class

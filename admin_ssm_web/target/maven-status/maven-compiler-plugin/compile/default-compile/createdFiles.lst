@@ -1,0 +1,7 @@
+cn\cqupt\controller\SysLogController.class
+cn\cqupt\controller\LogAop.class
+cn\cqupt\controller\OrdersController.class
+cn\cqupt\controller\PermissionController.class
+cn\cqupt\controller\RoleController.class
+cn\cqupt\controller\ProductController.class
+cn\cqupt\controller\UserController.class

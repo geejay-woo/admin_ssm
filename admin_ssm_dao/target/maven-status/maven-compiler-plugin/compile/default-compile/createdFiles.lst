@@ -1,0 +1,8 @@
+cn\cqupt\dao\ISysLogDao.class
+cn\cqupt\dao\IUserDao.class
+cn\cqupt\dao\IProductDao.class
+cn\cqupt\dao\IRoleDao.class
+cn\cqupt\dao\IPermissionDao.class
+cn\cqupt\dao\IMemberDao.class
+cn\cqupt\dao\ITravellerDao.class
+cn\cqupt\dao\IOrdersDao.class

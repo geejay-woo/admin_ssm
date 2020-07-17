@@ -1,0 +1,33 @@
+package cn.cqupt.controller;
+
+import cn.cqupt.domain.Product;
+import cn.cqupt.service.IProductService;
+import cn.cqupt.service.impl.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import java.util.List;
+
+@Controller
+@RequestMapping("/product")
+public class ProductController {
+    @Autowired
+    private IProductService productService;
+
+    @RequestMapping("/save.do")
+    public String save(Product product) throws Exception {
+        productService.save(product);
+        return "redirect:findAll.do";
+    }
+
+    @RequestMapping("/findAll.do")
+    public ModelAndView findAll() throws Exception {
+        ModelAndView mv = new ModelAndView();
+        List<Product> list = productService.findAll();
+        mv.addObject("productList",list);
+        mv.setViewName("product-list1");
+        return mv;
+    }
+}

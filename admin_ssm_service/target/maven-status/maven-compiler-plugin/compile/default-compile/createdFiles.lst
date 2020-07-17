@@ -1,0 +1,12 @@
+cn\cqupt\service\impl\SysLogServiceImpl.class
+cn\cqupt\service\IRoleService.class
+cn\cqupt\service\impl\RoleService.class
+cn\cqupt\service\impl\UserService.class
+cn\cqupt\service\IUserService.class
+cn\cqupt\service\IOrdersService.class
+cn\cqupt\service\impl\ProductService.class
+cn\cqupt\service\IPermissionService.class
+cn\cqupt\service\ISysLogService.class
+cn\cqupt\service\impl\OrdersService.class
+cn\cqupt\service\impl\PermissionService.class
+cn\cqupt\service\IProductService.class
