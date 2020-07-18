@@ -10,6 +10,6 @@ public class BCryptPasswordEncoderUtils {
 
     public static void main(String[] args) {
 
-        System.out.println(encoding("test1"));
+        System.out.println(encoding("tom"));
     }
 }

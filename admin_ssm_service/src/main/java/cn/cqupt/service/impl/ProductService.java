@@ -21,7 +21,7 @@ public class ProductService implements IProductService {
     }
 
     @Override
-    @RolesAllowed({"admin"})
+//    @RolesAllowed({"admin"})
     public List<Product> findAll() throws Exception {
         return iProductDao.findAll();
     }

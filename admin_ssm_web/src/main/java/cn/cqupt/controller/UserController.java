@@ -5,6 +5,8 @@ import cn.cqupt.domain.UserInfo;
 import cn.cqupt.service.IUserService;
 import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +21,9 @@ import java.util.List;
 public class UserController {
     @Autowired
     private IUserService userService;
+
     @RequestMapping("/findAll.do")
+//    @PreAuthorize("hasRole('admin')")
     public ModelAndView findAll() throws Exception{
         ModelAndView mv = new ModelAndView();
         List<UserInfo> users = userService.findAll();
