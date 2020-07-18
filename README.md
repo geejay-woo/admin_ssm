@@ -94,7 +94,7 @@ Spring Security的使用
 
 ##### 表结构
 
-​	数据库见schema.sql
+​	数据库构建见schema.sql
 
 ```sql
 --产品表
@@ -213,5 +213,5 @@ method VARCHAR2(200)
 
 #### 结尾
 
-- JSP中BUG还很多未改
+- JSP中BUG还很多未改，比如分页只做了订单
 - 功能易扩展，自行拓展功能练手
